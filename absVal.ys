@@ -1,0 +1,84 @@
+      .pos 0
+negTwo:
+    xorq %r11, %r11
+    irmovq list, %rsp
+    mrmovq (%rsp), %r10
+    cmovge %r10, %r11
+    
+    xorq %rax, %rax
+    subq %r10, %rax
+    
+    andq %r11, %r11
+    cmovge %r11, %rax
+    
+    rmmovq %rax, (%rsp)
+    
+#   mrmovq 8(%rsp), %r10
+
+
+fiver:
+    xorq %r11, %r11
+    #irmovq list, %rsp
+    mrmovq 8(%rsp), %r10
+    cmovge %r10, %r11
+    
+    xorq %rax, %rax
+    subq %r10, %rax
+    
+    andq %r11, %r11
+    cmovge %r11, %rax
+    
+    rmmovq %rax, 8(%rsp)
+
+F:
+    xorq %r11, %r11
+    #irmovq list, %rsp
+    mrmovq 16(%rsp), %r10
+    cmovge %r10, %r11
+    
+    xorq %rax, %rax
+    subq %r10, %rax
+    
+    andq %r11, %r11
+    cmovge %r11, %rax
+    
+    rmmovq %rax, 16(%rsp)
+
+Zero:
+    xorq %r11, %r11
+    #irmovq list, %rsp
+    mrmovq 24(%rsp), %r10
+    cmovge %r10, %r11
+    
+    xorq %rax, %rax
+    subq %r10, %rax
+    
+    andq %r11, %r11
+    cmovge %r11, %rax
+    
+    rmmovq %rax, 24(%rsp)
+
+negOne:
+    xorq %r11, %r11
+    #irmovq list, %rsp
+    mrmovq 32(%rsp), %r10
+    cmovge %r10, %r11
+    
+    xorq %rax, %rax
+    subq %r10, %rax
+    
+    andq %r11, %r11
+    cmovge %r11, %rax
+    
+    rmmovq %rax, 32(%rsp)
+
+end:
+    halt
+
+      .align 8
+list: .quad -2            #at end: 2
+      .quad 5             #at end: 5 
+      .quad -15           #at end: f
+      .quad 0             #at end: 0
+      .quad -1            #at end: 1
+      

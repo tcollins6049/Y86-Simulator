@@ -1,0 +1,54 @@
+0x000:                      |     .pos 0
+0x000:                      |     .align 8
+                            |     #might need to clear out registers with xorq
+0x000: 30f00100000000000000 |     irmovq $1, %rax
+                            | 
+0x00a: 6000                 |     addq %rax, %rax
+0x00c: 6001                 |     addq %rax, %rcx
+                            |     
+0x00e: 6000                 |     addq %rax, %rax
+0x010: 6002                 |     addq %rax, %rdx
+                            |     
+0x012: 6000                 |     addq %rax, %rax
+0x014: 6003                 |     addq %rax, %rbx
+                            |     
+0x016: 6000                 |     addq %rax, %rax
+0x018: 6004                 |     addq %rax, %rsp
+                            | 
+0x01a: 6000                 |     addq %rax, %rax
+0x01c: 6005                 |     addq %rax, %rbp
+                            | 
+0x01e: 6000                 |     addq %rax, %rax
+0x020: 6006                 |     addq %rax, %rsi
+                            | 
+0x022: 6000                 |     addq %rax, %rax
+0x024: 6007                 |     addq %rax, %rdi
+                            |     
+0x026: 6000                 |     addq %rax, %rax
+0x028: 6008                 |     addq %rax, %r8
+                            |     
+0x02a: 6000                 |     addq %rax, %rax
+0x02c: 6009                 |     addq %rax, %r9
+                            |     
+0x02e: 6000                 |     addq %rax, %rax
+0x030: 600a                 |     addq %rax, %r10
+                            |     
+0x032: 6000                 |     addq %rax, %rax
+0x034: 600b                 |     addq %rax, %r11
+                            |     
+0x036: 6000                 |     addq %rax, %rax
+0x038: 600c                 |     addq %rax, %r12
+                            |     
+0x03a: 6000                 |     addq %rax, %rax
+0x03c: 600d                 |     addq %rax, %r13
+                            |     
+0x03e: 6000                 |     addq %rax, %rax
+0x040: 600e                 |     addq %rax, %r14
+                            |     
+0x042: 30f00100000000000000 |     irmovq $1, %rax
+                            |     
+                            | 
+0x04c: 30f00100000000000000 |     irmovq $1, %rax #restore rax to 1
+                            | 
+                            |     
+0x056: 00                   |     halt

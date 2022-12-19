@@ -1,0 +1,83 @@
+0x000:                      |       .pos 0
+0x000:                      | negTwo:
+0x000: 63bb                 |     xorq %r11, %r11
+0x002: 30f4b000000000000000 |     irmovq list, %rsp
+0x00c: 50a40000000000000000 |     mrmovq (%rsp), %r10
+0x016: 25ab                 |     cmovge %r10, %r11
+                            |     
+0x018: 6300                 |     xorq %rax, %rax
+0x01a: 61a0                 |     subq %r10, %rax
+                            |     
+0x01c: 62bb                 |     andq %r11, %r11
+0x01e: 25b0                 |     cmovge %r11, %rax
+                            |     
+0x020: 40040000000000000000 |     rmmovq %rax, (%rsp)
+                            |     
+                            | #   mrmovq 8(%rsp), %r10
+                            | 
+                            | 
+0x02a:                      | fiver:
+0x02a: 63bb                 |     xorq %r11, %r11
+                            |     #irmovq list, %rsp
+0x02c: 50a40800000000000000 |     mrmovq 8(%rsp), %r10
+0x036: 25ab                 |     cmovge %r10, %r11
+                            |     
+0x038: 6300                 |     xorq %rax, %rax
+0x03a: 61a0                 |     subq %r10, %rax
+                            |     
+0x03c: 62bb                 |     andq %r11, %r11
+0x03e: 25b0                 |     cmovge %r11, %rax
+                            |     
+0x040: 40040800000000000000 |     rmmovq %rax, 8(%rsp)
+                            | 
+0x04a:                      | F:
+0x04a: 63bb                 |     xorq %r11, %r11
+                            |     #irmovq list, %rsp
+0x04c: 50a41000000000000000 |     mrmovq 16(%rsp), %r10
+0x056: 25ab                 |     cmovge %r10, %r11
+                            |     
+0x058: 6300                 |     xorq %rax, %rax
+0x05a: 61a0                 |     subq %r10, %rax
+                            |     
+0x05c: 62bb                 |     andq %r11, %r11
+0x05e: 25b0                 |     cmovge %r11, %rax
+                            |     
+0x060: 40041000000000000000 |     rmmovq %rax, 16(%rsp)
+                            | 
+0x06a:                      | Zero:
+0x06a: 63bb                 |     xorq %r11, %r11
+                            |     #irmovq list, %rsp
+0x06c: 50a41800000000000000 |     mrmovq 24(%rsp), %r10
+0x076: 25ab                 |     cmovge %r10, %r11
+                            |     
+0x078: 6300                 |     xorq %rax, %rax
+0x07a: 61a0                 |     subq %r10, %rax
+                            |     
+0x07c: 62bb                 |     andq %r11, %r11
+0x07e: 25b0                 |     cmovge %r11, %rax
+                            |     
+0x080: 40041800000000000000 |     rmmovq %rax, 24(%rsp)
+                            | 
+0x08a:                      | negOne:
+0x08a: 63bb                 |     xorq %r11, %r11
+                            |     #irmovq list, %rsp
+0x08c: 50a42000000000000000 |     mrmovq 32(%rsp), %r10
+0x096: 25ab                 |     cmovge %r10, %r11
+                            |     
+0x098: 6300                 |     xorq %rax, %rax
+0x09a: 61a0                 |     subq %r10, %rax
+                            |     
+0x09c: 62bb                 |     andq %r11, %r11
+0x09e: 25b0                 |     cmovge %r11, %rax
+                            |     
+0x0a0: 40042000000000000000 |     rmmovq %rax, 32(%rsp)
+                            | 
+0x0aa:                      | end:
+0x0aa: 00                   |     halt
+                            | 
+0x0b0:                      |       .align 8
+0x0b0: feffffffffffffff     | list: .quad -2            #at end: 2
+0x0b8: 0500000000000000     |       .quad 5             #at end: 5 
+0x0c0: f1ffffffffffffff     |       .quad -15           #at end: f
+0x0c8: 0000000000000000     |       .quad 0             #at end: 0
+0x0d0: ffffffffffffffff     |       .quad -1            #at end: 1

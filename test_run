@@ -1,0 +1,360 @@
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error3.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error4.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error5.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error6.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error7.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error8.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error9.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error10.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error11.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error12.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error13.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/error14.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/nop.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/irmovq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/andq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/subq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/xorq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addqfor1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addqfor2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addqfor3.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addqfor4.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addqfor5.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addqfor6.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/rrmovq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/cmovle.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/cmovl.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/cmove.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/cmovne.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/cmovge.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/cmovg.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/mrmovq1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/mrmovq2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/pushq1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/pushq2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/popq1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/popq2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/pushqpopq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/rmmovq.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/memfor1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/memfor2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/except1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/except2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/except3.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/except4.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/except5.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/except6.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/except7.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/loaduse1.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/loaduse2.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/jmp.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/je.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/jg.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/jge.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/jl.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/jle.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/jne.yo ... passed
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/addOne.yo ... failed
+120c120
+< D: stat: 1 icode: 1 ifun: 0 rA: f rB: f valC: 0000000000000000 valP: 000
+---
+> D: stat: 1 icode: 3 ifun: 0 rA: f rB: 1 valC: 0000000000000003 valP: 035
+142,143c142,143
+< E: stat: 1 icode: 1 ifun: 0 valC: 0000000000000000 valA: 0000000000000000
+< E: valB: 0000000000000000 dstE: f dstM: f srcA: f srcB: f
+---
+> E: stat: 1 icode: 3 ifun: 0 valC: 0000000000000003 valA: 0000000000000000
+> E: valB: 0000000000000000 dstE: 1 dstM: f srcA: f srcB: f
+165c165
+< M: stat: 1 icode: 1 Cnd: 0 valE: 0000000000000000 valA: 0000000000000000 dstE: f dstM: f
+---
+> M: stat: 1 icode: 3 Cnd: 0 valE: 0000000000000003 valA: 0000000000000000 dstE: 1 dstM: f
+187c187
+< W: stat: 1 icode: 1 valE: 0000000000000000 valM: 0000000000000000 dstE: f dstM: f
+---
+> W: stat: 1 icode: 3 valE: 0000000000000003 valM: 0000000000000000 dstE: 1 dstM: f
+211c211
+< %rax: 0000000000000004 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000004 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+232c232
+< %rax: 0000000000000004 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000004 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+253c253
+< %rax: 0000000000000004 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000004 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+267c267
+< D: stat: 1 icode: 1 ifun: 0 rA: f rB: f valC: 0000000000000000 valP: 000
+---
+> D: stat: 1 icode: 3 ifun: 0 rA: f rB: 1 valC: 0000000000000003 valP: 035
+274c274
+< %rax: 0000000000000004 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000004 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/sum.yo ... failed
+986c986
+< D: stat: 1 icode: 1 ifun: 0 rA: f rB: f valC: 0000000000000000 valP: 000
+---
+> D: stat: 1 icode: 3 ifun: 0 rA: f rB: 1 valC: 0000000000000003 valP: 064
+1011,1012c1011,1012
+< E: stat: 1 icode: 1 ifun: 0 valC: 0000000000000000 valA: 0000000000000000
+< E: valB: 0000000000000000 dstE: f dstM: f srcA: f srcB: f
+---
+> E: stat: 1 icode: 3 ifun: 0 valC: 0000000000000003 valA: 0000000000000000
+> E: valB: 0000000000000000 dstE: 1 dstM: f srcA: f srcB: f
+1037c1037
+< M: stat: 1 icode: 1 Cnd: 0 valE: 0000000000000000 valA: 0000000000000000 dstE: f dstM: f
+---
+> M: stat: 1 icode: 3 Cnd: 0 valE: 0000000000000003 valA: 0000000000000000 dstE: 1 dstM: f
+1062c1062
+< W: stat: 1 icode: 1 valE: 0000000000000000 valM: 0000000000000000 dstE: f dstM: f
+---
+> W: stat: 1 icode: 3 valE: 0000000000000003 valM: 0000000000000000 dstE: 1 dstM: f
+1089c1089
+< %rax: 0000000000000001 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1113c1113
+< %rax: 0000000000000001 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1137c1137
+< %rax: 0000000000000001 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1154c1154
+< D: stat: 1 icode: 1 ifun: 0 rA: f rB: f valC: 0000000000000000 valP: 000
+---
+> D: stat: 1 icode: 3 ifun: 0 rA: f rB: 0 valC: 0000000000000001 valP: 059
+1161c1161
+< %rax: 0000000000000001 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1179,1180c1179,1180
+< E: stat: 1 icode: 1 ifun: 0 valC: 0000000000000000 valA: 0000000000000000
+< E: valB: 0000000000000000 dstE: f dstM: f srcA: f srcB: f
+---
+> E: stat: 1 icode: 3 ifun: 0 valC: 0000000000000001 valA: 0000000000000000
+> E: valB: 0000000000000000 dstE: 0 dstM: f srcA: f srcB: f
+1185c1185
+< %rax: 0000000000000001 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1205c1205
+< M: stat: 1 icode: 1 Cnd: 0 valE: 0000000000000000 valA: 0000000000000000 dstE: f dstM: f
+---
+> M: stat: 1 icode: 3 Cnd: 0 valE: 0000000000000001 valA: 0000000000000000 dstE: 0 dstM: f
+1209c1209
+< %rax: 0000000000000003 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000003 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1230c1230
+< W: stat: 1 icode: 1 valE: 0000000000000000 valM: 0000000000000000 dstE: f dstM: f
+---
+> W: stat: 1 icode: 3 valE: 0000000000000001 valM: 0000000000000000 dstE: 0 dstM: f
+1233c1233
+< %rax: 0000000000000003 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000003 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1257c1257
+< %rax: 0000000000000003 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1281c1281
+< %rax: 0000000000000003 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1300c1300
+< E: valB: 0000000000000003 dstE: 0 dstM: f srcA: 7 srcB: 0
+---
+> E: valB: 0000000000000001 dstE: 0 dstM: f srcA: 7 srcB: 0
+1305c1305
+< %rax: 0000000000000003 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1322c1322
+< D: stat: 1 icode: 1 ifun: 0 rA: f rB: f valC: 0000000000000000 valP: 000
+---
+> D: stat: 1 icode: 3 ifun: 0 rA: f rB: 0 valC: 0000000000000001 valP: 059
+1325c1325
+< M: stat: 1 icode: 6 Cnd: 0 valE: 0000000000000006 valA: 0000000000000003 dstE: 0 dstM: f
+---
+> M: stat: 1 icode: 6 Cnd: 0 valE: 0000000000000004 valA: 0000000000000003 dstE: 0 dstM: f
+1329c1329
+< %rax: 0000000000000003 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1347,1348c1347,1348
+< E: stat: 1 icode: 1 ifun: 0 valC: 0000000000000000 valA: 0000000000000000
+< E: valB: 0000000000000000 dstE: f dstM: f srcA: f srcB: f
+---
+> E: stat: 1 icode: 3 ifun: 0 valC: 0000000000000001 valA: 0000000000000000
+> E: valB: 0000000000000000 dstE: 0 dstM: f srcA: f srcB: f
+1350c1350
+< W: stat: 1 icode: 6 valE: 0000000000000006 valM: 0000000000000000 dstE: 0 dstM: f
+---
+> W: stat: 1 icode: 6 valE: 0000000000000004 valM: 0000000000000000 dstE: 0 dstM: f
+1353c1353
+< %rax: 0000000000000003 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1373c1373
+< M: stat: 1 icode: 1 Cnd: 0 valE: 0000000000000000 valA: 0000000000000000 dstE: f dstM: f
+---
+> M: stat: 1 icode: 3 Cnd: 0 valE: 0000000000000001 valA: 0000000000000000 dstE: 0 dstM: f
+1377c1377
+< %rax: 0000000000000006 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000004 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1398c1398
+< W: stat: 1 icode: 1 valE: 0000000000000000 valM: 0000000000000000 dstE: f dstM: f
+---
+> W: stat: 1 icode: 3 valE: 0000000000000001 valM: 0000000000000000 dstE: 0 dstM: f
+1401c1401
+< %rax: 0000000000000006 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000004 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1425c1425
+< %rax: 0000000000000006 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1449c1449
+< %rax: 0000000000000006 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1468c1468
+< E: valB: 0000000000000006 dstE: 0 dstM: f srcA: 7 srcB: 0
+---
+> E: valB: 0000000000000001 dstE: 0 dstM: f srcA: 7 srcB: 0
+1473c1473
+< %rax: 0000000000000006 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1490c1490
+< D: stat: 1 icode: 1 ifun: 0 rA: f rB: f valC: 0000000000000000 valP: 000
+---
+> D: stat: 1 icode: 3 ifun: 0 rA: f rB: 0 valC: 0000000000000001 valP: 059
+1493c1493
+< M: stat: 1 icode: 6 Cnd: 0 valE: 000000000000000a valA: 0000000000000004 dstE: 0 dstM: f
+---
+> M: stat: 1 icode: 6 Cnd: 0 valE: 0000000000000005 valA: 0000000000000004 dstE: 0 dstM: f
+1497c1497
+< %rax: 0000000000000006 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1515,1516c1515,1516
+< E: stat: 1 icode: 1 ifun: 0 valC: 0000000000000000 valA: 0000000000000000
+< E: valB: 0000000000000000 dstE: f dstM: f srcA: f srcB: f
+---
+> E: stat: 1 icode: 3 ifun: 0 valC: 0000000000000001 valA: 0000000000000000
+> E: valB: 0000000000000000 dstE: 0 dstM: f srcA: f srcB: f
+1518c1518
+< W: stat: 1 icode: 6 valE: 000000000000000a valM: 0000000000000000 dstE: 0 dstM: f
+---
+> W: stat: 1 icode: 6 valE: 0000000000000005 valM: 0000000000000000 dstE: 0 dstM: f
+1521c1521
+< %rax: 0000000000000006 %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1541c1541
+< M: stat: 1 icode: 1 Cnd: 0 valE: 0000000000000000 valA: 0000000000000000 dstE: f dstM: f
+---
+> M: stat: 1 icode: 3 Cnd: 0 valE: 0000000000000001 valA: 0000000000000000 dstE: 0 dstM: f
+1545c1545
+< %rax: 000000000000000a %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000005 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1566c1566
+< W: stat: 1 icode: 1 valE: 0000000000000000 valM: 0000000000000000 dstE: f dstM: f
+---
+> W: stat: 1 icode: 3 valE: 0000000000000001 valM: 0000000000000000 dstE: 0 dstM: f
+1569c1569
+< %rax: 000000000000000a %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000005 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1593c1593
+< %rax: 000000000000000a %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1617c1617
+< %rax: 000000000000000a %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1636c1636
+< E: valB: 000000000000000a dstE: 0 dstM: f srcA: 7 srcB: 0
+---
+> E: valB: 0000000000000001 dstE: 0 dstM: f srcA: 7 srcB: 0
+1641c1641
+< %rax: 000000000000000a %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1658c1658
+< D: stat: 1 icode: 1 ifun: 0 rA: f rB: f valC: 0000000000000000 valP: 000
+---
+> D: stat: 1 icode: 3 ifun: 0 rA: f rB: 0 valC: 0000000000000001 valP: 059
+1661c1661
+< M: stat: 1 icode: 6 Cnd: 0 valE: 000000000000000f valA: 0000000000000005 dstE: 0 dstM: f
+---
+> M: stat: 1 icode: 6 Cnd: 0 valE: 0000000000000006 valA: 0000000000000005 dstE: 0 dstM: f
+1665c1665
+< %rax: 000000000000000a %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1683,1684c1683,1684
+< E: stat: 1 icode: 1 ifun: 0 valC: 0000000000000000 valA: 0000000000000000
+< E: valB: 0000000000000000 dstE: f dstM: f srcA: f srcB: f
+---
+> E: stat: 1 icode: 3 ifun: 0 valC: 0000000000000001 valA: 0000000000000000
+> E: valB: 0000000000000000 dstE: 0 dstM: f srcA: f srcB: f
+1686c1686
+< W: stat: 1 icode: 6 valE: 000000000000000f valM: 0000000000000000 dstE: 0 dstM: f
+---
+> W: stat: 1 icode: 6 valE: 0000000000000006 valM: 0000000000000000 dstE: 0 dstM: f
+1689c1689
+< %rax: 000000000000000a %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1709c1709
+< M: stat: 1 icode: 1 Cnd: 0 valE: 0000000000000000 valA: 0000000000000000 dstE: f dstM: f
+---
+> M: stat: 1 icode: 3 Cnd: 0 valE: 0000000000000001 valA: 0000000000000000 dstE: 0 dstM: f
+1713c1713
+< %rax: 000000000000000f %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000006 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1734c1734
+< W: stat: 1 icode: 1 valE: 0000000000000000 valM: 0000000000000000 dstE: f dstM: f
+---
+> W: stat: 1 icode: 3 valE: 0000000000000001 valM: 0000000000000000 dstE: 0 dstM: f
+1737c1737
+< %rax: 000000000000000f %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000006 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1761c1761
+< %rax: 000000000000000f %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1785c1785
+< %rax: 000000000000000f %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1809c1809
+< %rax: 000000000000000f %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+1833c1833
+< %rax: 000000000000000f %rcx: 0000000000000000 %rdx: 0000000000000000 %rbx: 0000000000000000
+---
+> %rax: 0000000000000001 %rcx: 0000000000000003 %rdx: 0000000000000000 %rbx: 0000000000000000
+Testing /u/css/classes/3481/Spring2022/lab10/Tests/jecall.yo ... passed
+ 
+60 passed out of 62 tests.
+Files saved in your Outputs directory.
+Input files end with a .yo.
+Your output files end with a .sdump.
+Correct output files end with a .idump.
